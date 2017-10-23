@@ -3,7 +3,7 @@ import rainDrops from './rainDrops'
 import { assert } from 'chai';
 
 describe('rainDrops', () => {
-	describe('Do not contain prime factors', () => {
+	describe('Do not contain prime factors between 3, 5, and 7', () => {
 		it('It Should return the same number passed in for number without factors of 3, 5, 7', () => {
 			assert.equal(rainDrops(1777), 1777);
 		});
